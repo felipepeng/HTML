@@ -1,0 +1,41 @@
+table#schedule {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.action {
+    text-align: center;
+}
+
+.action button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.header-row {
+    background-color:blue;
+    color: #f2f2f2;
+}
+
+.header-row th {
+    background-color: inherit;
+}

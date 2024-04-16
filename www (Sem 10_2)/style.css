@@ -1,0 +1,19 @@
+#cabecario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#conteudo {
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+#conteudo li{
+    margin: 10px;
+    padding: 10px;
+    min-width: 90px;
+}

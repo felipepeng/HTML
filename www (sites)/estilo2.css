@@ -1,0 +1,38 @@
+body{
+
+    background-color: blueviolet;
+    color:khaki;
+    /*
+    margin: 0px;
+    padding: 0px;
+    */
+}
+
+
+
+#cabecalho{
+background-color: aquamarine;
+color:brown;
+padding:10px;
+text-align: center;
+}
+
+#navegacao{
+    padding: 10px;
+    text-align: center;
+    background-color:deeppink;
+}
+
+#navegacao a{
+    color:azure;
+    text-decoration: none;
+    padding:10px;
+     
+}
+
+#navegacao a:hover{
+    color:brown;
+    background-color:gold;
+    border-radius: 5px;
+
+}

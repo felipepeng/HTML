@@ -1,0 +1,275 @@
+body {
+    background-color: #6E5C62;
+    color: aliceblue;
+    text-align: center;
+
+    font-family: Mitr, sans-serif;
+    /* Usando a fonte Roboto */
+}
+
+
+
+
+#container {
+    display: flex;
+    /* torna os elementos filhos em um flex container */
+    flex-direction: column;
+    /* empilha os itens verticalmente */
+    justify-content: center;
+    /* alinha os itens ao centro horizontalmente */
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.letra_conc {
+    width: 50px;
+    /* largura do quadrado */
+    height: 50px;
+    /* altura do quadrado */
+    background-color: #312A2C;
+    /* cor de fundo da letra #312A2C */
+    border-radius: 5px;
+    border: 4px solid #4C4347;
+    display: flex;
+    /* torna a letra um flex container */
+    justify-content: center;
+    /* alinha o conteúdo (letra) ao centro horizontalmente */
+    align-items: center;
+    /* alinha o conteúdo (letra) ao centro verticalmente */
+    font-size: 30px;
+    /* tamanho da fonte */
+    margin: 0 5px;
+    /* margem entre as letras */
+}
+
+.letra_inser {
+    width: 50px;
+    /* largura do quadrado */
+    height: 50px;
+    /* altura do quadrado */
+    background-color: #6E5C62;
+    /* cor de fundo da letra #312A2C */
+    border-radius: 5px;
+    border: 4px solid #4C4347;
+    display: flex;
+    /* torna a letra um flex container */
+    justify-content: center;
+    /* alinha o conteúdo (letra) ao centro horizontalmente */
+    align-items: center;
+    /* alinha o conteúdo (letra) ao centro verticalmente */
+    font-size: 30px;
+    /* tamanho da fonte */
+    margin: 0 5px;
+    /* margem entre as letras */
+}
+
+.letra {
+    width: 50px;
+    /* largura do quadrado */
+    height: 50px;
+    /* altura do quadrado */
+    background-color: #615458;
+    /* cor de fundo da letra #312A2C */
+    border-radius: 5px;
+    border: 4px solid #4C4347;
+    display: flex;
+    /* torna a letra um flex container */
+    justify-content: center;
+    /* alinha o conteúdo (letra) ao centro horizontalmente */
+    align-items: center;
+    /* alinha o conteúdo (letra) ao centro verticalmente */
+    font-size: 30px;
+    /* tamanho da fonte */
+    margin: 0 5px;
+    /* margem entre as letras */
+}
+
+.letra_amarelo {
+    width: 50px;
+    /* largura do quadrado  */
+    height: 50px;
+    /* altura do quadrado */
+    background-color: #D3AD69;
+    /* cor de fundo da letra */
+    border-radius: 5px;
+    border: 4px solid #4C4347;
+    display: flex;
+    /* torna a letra um flex container */
+    justify-content: center;
+    /* alinha o conteúdo (letra) ao centro horizontalmente */
+    align-items: center;
+    /* alinha o conteúdo (letra) ao centro verticalmente */
+    font-size: 30px;
+    /* tamanho da fonte */
+    margin: 0 5px;
+    /* margem entre as letras  */
+}
+
+.letra_verde {
+    width: 50px;
+    /* largura do quadrado */
+    height: 50px;
+    /* altura do quadrado */
+    background-color: #3AA394;
+    /* cor de fundo da letra */
+    border-radius: 5px;
+    border: 4px solid #4C4347;
+    display: flex;
+    /* torna a letra um flex container */
+    justify-content: center;
+    /* alinha o conteúdo (letra) ao centro horizontalmente */
+    align-items: center;
+    /* alinha o conteúdo (letra) ao centro verticalmente */
+    font-size: 30px;
+    /* tamanho da fonte */
+    margin: 0 5px;
+    /* margem entre as letras #3AA394 */
+}
+
+
+#palavras_vazias {
+    display: flex;
+    /* torna os elementos filhos em um flex container */
+    flex-direction: column;
+    /* empilha os itens verticalmente */
+    justify-content: center;
+    /* alinha os itens ao centro horizontalmente */
+    margin-top: 20px;
+    /* margem superior entre as palavras "fúria" e as palavras vazias */
+}
+
+.pa {
+    display: flex;
+    /* torna os elementos filhos em um flex container */
+    justify-content: center;
+    /* alinha os itens ao centro horizontalmente */
+    margin-top: 20px;
+    /* margem superior entre as palavras "fúria" e as palavras vazias */
+}
+
+
+
+
+
+#teclado {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 26px;
+}
+
+
+
+
+.keys {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    transition: 0.5s;
+    height: 2.5em;
+    font-size: 1em;
+    width: 3em;
+    margin: 0.15em;
+    background-color: #4C4347;
+    border-radius: 0.5em;
+    line-height: 2.5em;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+li:hover {
+    background-color: burlywood;
+    cursor: pointer;
+    top: 3px;
+}
+
+
+#green {
+    background-color: #3AA394;
+}
+
+#yellow {
+    background-color: #D3AD69;
+}
+
+
+#apagado {
+    background-color: #594B4F;
+    color: #6E5C62;
+}
+
+
+#tec2 {
+    margin-left: 40px;
+}
+
+#tec3 {
+    margin-left: 80px;
+}
+
+#enter{
+    width: 10em;
+}
+
+#backspace{
+    width: 7em;
+}
+
+
+#cabecalho {
+    text-align: center;
+}
+
+.img1{
+    position:absolute;
+    top: 5%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    height: 3em;
+    width: 3em;
+    border: 4px solid #B4AEB4;
+    border-radius: 5px;
+    border-color: #B4AEB4;
+}
+
+.img2{
+    position:absolute;
+    top: 5%;
+    left: 23.5%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    color: #B4AEB4;
+    border: 4px solid #B4AEB4;
+    border-radius: 5px;
+    border-color: #B4AEB4;
+    width: 1.5em;
+}
+
+.img3{
+    position:absolute;
+    top: 5%;
+    right: 20%;
+    transform: translate(-50%, -50%);
+    height: 3em;
+    width: 3em;
+    border: 4px solid #B4AEB4;
+    border-radius: 5px;
+    border-color: #B4AEB4;
+}
+
+.img4{
+    position:absolute;
+    top: 5%;
+    right: 23.5%;
+    transform: translate(-50%, -50%);
+    height: 3em;
+    width: 3em;
+    border: 4px solid #B4AEB4;
+    border-radius: 5px;
+    border-color: #B4AEB4;
+}

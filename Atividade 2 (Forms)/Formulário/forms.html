@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Inscrição</title>
+
+    <link rel="stylesheet" href="estilo_form.css">
+</head>
+<body>
+    <h1 class="titulo">Formulário de Inscrição</h1>
+
+    <div class="container">
+        <form>
+            <label for="fullname">Nome Completo:</label><br>
+            <input type="text" id="fullname" name="fullname"><br>
+            <label for="email">Endereço de Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="enrollment">Tipo de Inscrição:</label><br>
+            <select id="enrollment" name="enrollment">
+                <option value="participante">Participante</option>
+                <option value="palestrante">Palestrante</option>
+                <option value="Voluntario">Voluntário</option>
+            </select><br>
+            <input type="checkbox" id="terms" name="terms" value="terms">
+            <label for="terms">Aceito os termos e condições</label><br>
+            <input type="submit" value="Inscrever-se">
+        </form>
+    </div>
+
+</body>
+</html>

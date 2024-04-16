@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+    background-image: url('espaco.jpg');
+    background-size: cover; /* Para cobrir todo o conteúdo da página */
+    background-position: center; /* Centraliza a imagem no fundo */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    color:darkkhaki;
+}
+
+#cabecalho{
+    height: 100px;
+}
+
+#Conteudo_Principal{
+    height: 560px;
+}
+
+
+
+.imagem_foda{
+    margin-left: 50%;
+    transform: translateX(-50%); 
+}
+
+.imagem-no-canto {
+    position:absolute; /* Para manter a imagem fixa na posição */
+    top: 0; /* Ajuste a posição vertical conforme necessário */
+    right: 200; /* Ajuste a posição horizontal conforme necessário */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da tela */
+    max-height: 100%; /* Garante que a imagem não ultrapasse a altura da tela */
+}
+
+.imagem_richas {
+    position:absolute; /* Para manter a imagem fixa na posição */
+    top: 200; /* Ajuste a posição vertical conforme necessário */
+    right: 400; /* Ajuste a posição horizontal conforme necessário */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da tela */
+    max-height: 100%; /* Garante que a imagem não ultrapasse a altura da tela */
+}
+
+
+
+

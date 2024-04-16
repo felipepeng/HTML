@@ -1,0 +1,12 @@
+body{
+    display:flex;
+    justify-content:center;
+    color:black;
+}
+
+#adicionar{
+    background-color: antiquewhite;
+}
+
+
+

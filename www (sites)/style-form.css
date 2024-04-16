@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:darksalmon
+}
+
+.form-grupo{
+    margin-bottom: 15px;
+}
+
+#formCadastro{
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+    /*width: 400px;   */
+
+}
+
+input[type="text"], input[type="email"], input[type="password"]{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #5f006e;
+    border-radius: 5px;
+    width: 95%;
+}
+
+button{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: indianred;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: aquamarine;
+    color: black;
+}
