@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Shopping Cart</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"">
+	<link href=" https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+	<main class="page">
+		<section class="shopping-cart dark">
+			<div class="container">
+				<div class="block-heading">
+					<h2>Carrinho</h2>
+				</div>
+				<div class="content">
+					<div class="row">
+						<div class="col-md-12 col-lg-8">
+							<div class="items">
+								<div class="product">
+									<div class="row">
+										<div class="col-md-3">
+											<img class="img-fluid mx-auto d-block image" src="../assets/alface.jpg">
+										</div>
+										<div class="col-md-8">
+											<div class="info">
+												<div class="row">
+													<div class="col-md-5 product-name">
+														<div class="product-name">
+															<a href="#">Alface</a>
+															<div class="product-info">
+																<div>Descrição:
+																	<h6 id="cart_desc_1">Refrescante e hidratante, ótimo para saladas
+																	</h6>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col-md-4 quantity">
+														<label for="quantity">Quantidade:</label>
+														<input id="quantityAlf" type="number" value="0"
+															class="form-control quantity-input" min="0">
+													</div>
+													<div class="col-md-3 price">
+														<span id="val1">R$0</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="product">
+									<div class="row">
+										<div class="col-md-3">
+											<img class="img-fluid mx-auto d-block image" src="../assets/tomate.jpg">
+										</div>
+										<div class="col-md-8">
+											<div class="info">
+												<div class="row">
+													<div class="col-md-5 product-name">
+														<div class="product-name">
+															<a href="#">Tomate</a>
+															<div class="product-info">
+																<div>Descrição:
+																	<h6 id="cart_desc_1">Suculento e saboroso, ideal para molhos e saladas
+																	</h6>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col-md-4 quantity">
+														<label for="quantity">Quantidade:</label>
+														<input id="quantityTom" type="number" value="0"
+															class="form-control quantity-input" min="0">
+													</div>
+													<div class="col-md-3 price">
+														<span id="val2">R$0</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="product">
+									<div class="row">
+										<div class="col-md-3">
+											<img class="img-fluid mx-auto d-block image" src="../assets/cenoura.jpg">
+										</div>
+										<div class="col-md-8">
+											<div class="info">
+												<div class="row">
+													<div class="col-md-5 product-name">
+														<div class="product-name">
+															<a href="#">Cenoura</a>
+															<div class="product-info">
+																<div>Descrição:
+																	<h6 id="cart_desc_1">Doce e crocante, rica em vitaminas
+																	</h6>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col-md-4 quantity">
+														<label for="quantity">Quantidade:</label>
+														<input id="quantityCen" type="number" value="0"
+															class="form-control quantity-input" min="0">
+													</div>
+													<div class="col-md-3 price">
+														<span id="val3">R$0</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="product">
+									<div class="row">
+										<div class="col-md-3">
+											<img class="img-fluid mx-auto d-block image" src="../assets/pepino.webp">
+										</div>
+										<div class="col-md-8">
+											<div class="info">
+												<div class="row">
+													<div class="col-md-5 product-name">
+														<div class="product-name">
+															<a href="#">Pepino</a>
+															<div class="product-info">
+																<div>Descrição:
+																	<h6 id="cart_desc_1">Refrescante e hidratante, ótimo para saladas
+																	</h6>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col-md-4 quantity">
+														<label for="quantity">Quantidade:</label>
+														<input id="quantityPep" type="number" value="0"
+															class="form-control quantity-input" min="0">
+													</div>
+													<div class="col-md-3 price">
+														<span id="val4">R$0</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12 col-lg-4">
+							<div class="summary">
+								<h3>Summary</h3>
+								<div class="summary-item"><span class="text">Subtotal</span><span
+										class="price" id="subtotal">R$114</span></div>
+								<div class="summary-item"><span class="text">Desconto</span><span
+										class="price" id="desconto">R$0</span></div>
+								<div class="summary-item"><span class="text">Total</span><span class="price" id="total">R$114</span>
+								</div>
+								<button type="button" class="btn btn-primary btn-lg btn-block">Checkout</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+
+</html>

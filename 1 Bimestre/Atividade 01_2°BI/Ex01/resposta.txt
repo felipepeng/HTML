@@ -1,0 +1,5 @@
+Para organizar as diferentes seções da página, é possível utilizar a tag <div>. 
+Por exemplo, ao criar uma área dedicada à navegação com a tag <div> e atribuir-lhe um id como "navegacao", conseguimos estruturar a página de forma mais clara. 
+Dessa maneira, teremos <div id="navegacao">...</div>. 
+Utilizando esta div e o id correspondente, podemos desenvolver um menu de navegação que permita a transição entre as páginas usando a tag <a>. 
+Esta tag é empregada para vincular links à página, tornando possível criar elementos clicáveis, como texto ou imagens, que redirecionam o usuário para as páginas desejadas. 

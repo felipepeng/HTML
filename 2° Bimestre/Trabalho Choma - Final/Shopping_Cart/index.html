@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Shopping Cart</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        /* Estilos para a divisão entre os itens */
+        .items .product {
+            border-bottom: 1px solid #ddd; /* Adiciona uma borda inferior */
+            padding-bottom: 15px; /* Espaçamento inferior */
+            margin-bottom: 15px; /* Espaçamento inferior */
+            text-align: center; /* Centraliza o conteúdo dos itens */
+        }
+
+        /* Estilos adicionais podem ser aplicados aqui */
+    </style>
+</head>
+
+<body>
+    <main class="page">
+        <section class="shopping-cart dark">
+            <div class="container">
+                <div class="block-heading">
+                    <h2>Carrinho</h2>
+                </div>
+                <div class="content">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-8">
+                            <h1>Carrinho de Compras</h1>
+                            <div class="items">
+                                <!-- Os itens do carrinho serão populados aqui pelo JavaScript -->
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-4">
+                            <div class="summary">
+                                <h3>Resumo da Compra</h3>
+                                <div class="summary-item"><span class="text">Total</span><span class="price" id="total">R$114</span>
+                                </div>
+								<div class="form-group">
+									<label for="formaPagamento">Forma de Pagamento:</label>
+									<select class="form-control" id="formaPagamento">
+										<option value="pix">Pix</option>
+										<option value="credito">Crédito</option>
+										<option value="debito">Débito</option>
+									</select>
+								</div>
+                                <button type="button" class="btn btn-primary btn-lg btn-block" onclick="concluir()">Concluir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+
+</html>

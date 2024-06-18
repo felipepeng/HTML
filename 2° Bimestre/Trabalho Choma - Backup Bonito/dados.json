@@ -1,0 +1,12 @@
+{
+    "produtos": [
+        {
+            "nome": "Alface",
+            "qntCarrinho": 1
+        },
+        {
+            "nome": "Tomate",
+            "qntCarrinho": 2
+        }
+    ]
+}
